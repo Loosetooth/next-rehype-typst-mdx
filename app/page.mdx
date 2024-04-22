@@ -1,0 +1,51 @@
+
+# A test to embed typst formulas into MDX.
+
+Inline formulas:
+
+Blah blah blah formula: $E = M c^2$. This is inline!
+
+
+Standalone formulas:
+
+$$
+C_L &= 1 / 2 rho v^2 A C_D \
+    &= 1 / 2 rho v^2 A C_D
+$$
+
+<br/>
+
+$$
+A = pi r^2
+$$
+
+<br/>
+
+$$
+"area" = pi dot "radius"^2
+$$
+
+<br/>
+
+$$
+cal(A) := { x in RR | x "is natural" }
+$$
+
+
+Using the \`\`\`math code block:
+```math
+a = 1 / (2 pi r)
+```
+
+{/* Do a default export to add extra page styling etc... */}
+
+export default ({ children }) => (
+  <div style={{
+    padding: '20px',
+    border: '1px solid #ccc',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center'}}>
+    {children}
+  </div>
+)
