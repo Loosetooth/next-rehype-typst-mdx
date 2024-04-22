@@ -1,3 +1,9 @@
+A small test to get markdown formulas working using [Typst](https://typst.app) in [MDX](https://mdxjs.com/).
+
+This uses Next.js and [rehype-typst](https://github.com/Myriad-Dreamin/typst.ts/tree/main/projects/rehype-typst) under the hood.
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
