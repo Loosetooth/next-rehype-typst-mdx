@@ -11,9 +11,9 @@
   "dependencies": {
     "@mdx-js/loader": "^3.0.1",
     "@mdx-js/react": "^3.0.1",
-    "@myriaddreamin/rehype-typst": "https://gitpkg.now.sh/Myriad-Dreamin/typst.ts/projects/rehype-typst?665e4ce",
-    "@myriaddreamin/typst-ts-web-compiler": "^0.5.0-rc3",
-    "@myriaddreamin/typst.ts": "^0.5.0-rc3",
+    "@myriaddreamin/rehype-typst": "^0.5.3",
+    "@myriaddreamin/typst-ts-web-compiler": "^0.5.3",
+    "@myriaddreamin/typst.ts": "^0.5.3",
     "@next/mdx": "^14.2.2",
     "@types/mdx": "^2.0.13",
     "next": "14.2.2",
