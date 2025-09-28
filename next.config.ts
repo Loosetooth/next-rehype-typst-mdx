@@ -1,9 +1,10 @@
 import createMDX from '@next/mdx'
 import remarkMath from 'remark-math'
+// @ts-expect-error: No types available
 import rehypeTypst from '@myriaddreamin/rehype-typst'
- 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+import { NextConfig } from 'next'
+
+const nextConfig: NextConfig = {
   // Configure `pageExtensions` to include markdown and MDX files
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
   // Optionally, add any other Next.js config below
