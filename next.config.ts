@@ -3,6 +3,7 @@ import remarkMath from 'remark-math'
 // @ts-expect-error: No types available
 import rehypeTypst from '@myriaddreamin/rehype-typst'
 import { NextConfig } from 'next'
+import { remarkTypstAsMath } from './utils/remarkTypstAsMath'
 
 const nextConfig: NextConfig = {
   // Configure `pageExtensions` to include markdown and MDX files
@@ -15,6 +16,7 @@ const withMDX = createMDX({
   options: {
     remarkPlugins: [
       remarkMath,
+      remarkTypstAsMath,
     ],
     rehypePlugins: [
       rehypeTypst
